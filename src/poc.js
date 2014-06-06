@@ -14,8 +14,9 @@ var path = new Path({
 });
 
 var start = view.center / [10, 1];
-for (var i = 0; i < points; i++)
+for (var i = 0; i < points; i++) {
     path.add(start + new Point(i * length, 0));
+}
 
 function onMouseMove(event) {
     path.firstSegment.point = event.point;
