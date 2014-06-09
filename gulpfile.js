@@ -10,7 +10,7 @@ var srcDir = './src/',
     cssDir = './web/css/',
     expose = [
         './bower_components/almond/almond.js',
-        './bower_components/paper/dist/paper-full.min.js',,
+        './bower_components/paper/dist/paper-full.min.js',
         './bower_components/angular/angular.min.js'
     ],
     vendors = [
